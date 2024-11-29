@@ -1,6 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { Game } from '../App'
-import exp from 'constants'
 
 const api = createApi({
   baseQuery: fetchBaseQuery({
