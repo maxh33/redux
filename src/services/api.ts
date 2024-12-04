@@ -5,7 +5,7 @@ const api = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl:
       process.env.NODE_ENV === 'production'
-        ? 'https://fake-api-json-server-iota.vercel.app/produtos'
+        ? 'https://fake-api-json-server-iota.vercel.app'
         : 'http://localhost:4000'
   }),
   endpoints: (builder) => ({
