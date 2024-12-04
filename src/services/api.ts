@@ -4,7 +4,9 @@ import { Game } from '../App'
 const api = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl:
-      process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:4000'
+      process.env.NODE_ENV === 'production'
+        ? 'https://fake-api-json-server-5gjb18wdi-maxh33s-projects.vercel.app/produtos'
+        : 'http://localhost:4000'
   }),
   endpoints: (builder) => ({
     getJogos: builder.query<Game[], void>({
