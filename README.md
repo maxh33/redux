@@ -24,6 +24,10 @@ The purpose of this project is to learn and implement:
 - Fetch products from a mock API using RTK Query
 - Responsive design
 
+## Fake API DB Server
+
+The fake API DB server is hosted in a separate repository and deployed for use in this project. You can view it here: [Fake API DB Server](https://fake-api-json-server-iota.vercel.app)
+
 ## Demo
 
 ![Demo GIF](https://github.com/maxh33/redux/blob/main/src/assets/maxGamesOpt.gif)

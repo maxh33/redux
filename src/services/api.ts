@@ -6,7 +6,7 @@ const api = createApi({
     baseUrl:
       process.env.NODE_ENV === 'production'
         ? 'https://fake-api-json-server-iota.vercel.app'
-        : 'http://localhost:4000'
+        : 'http://localhost:3001'
   }),
   endpoints: (builder) => ({
     getJogos: builder.query<Game[], void>({
